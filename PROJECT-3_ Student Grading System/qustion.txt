@@ -1,0 +1,39 @@
+Project Title: Student Report Card Generator
+    Problem Statement:
+    Teachers want a simple CLI tool to enter student details and marks, store them, and generate a neat report card. The system must handle errors like missing files, invalid input, and duplicate entries.
+
+
+    Features to Implement:
+        Input student name, subjects, and marks.
+        Validate marks (0–100).
+        Prevent duplicate student entries.
+        Save data in a file (report_data.json).
+        Use a separate module report.py for logic.
+        Handle:
+            Missing data file
+            Wrong marks (e.g. >100, <0)
+            Duplicate student entries
+
+    report_card/
+    ├── main.py
+    └── report.py
+
+
+    Sample run:
+
+    Enter student name: Rahul
+    Enter number of subjects: 3
+    Enter subject name: Math
+    Enter marks for Math (0-100): 88
+    Enter subject name: Science
+    Enter marks for Science (0-100): 76
+    Enter subject name: English
+    Enter marks for English (0-100): 69
+
+    --- Report Card ---
+    Name: Rahul
+    Math: 88
+    Science: 76
+    English: 69
+    Average: 77.67
+    Result: Pass

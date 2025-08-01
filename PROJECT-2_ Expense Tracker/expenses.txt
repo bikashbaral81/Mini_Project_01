@@ -1,0 +1,2 @@
+room rent,8000.0
+petrol,8000.0

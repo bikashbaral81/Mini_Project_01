@@ -1,0 +1,49 @@
+Project Title: Shopping Cart System
+    Problem Statement:
+    Create a Command Line Interface (CLI) based shopping cart program. Users should be able to add items with their price and quantity, remove items, and view the total bill with tax. The cart data must be saved to a file so that it can be accessed even after restarting the program.
+
+    Features:
+    Add item to cart (name, price, quantity).
+    Remove item from cart by name.
+    View all items in the cart.
+    Calculate and show total bill with 18% GST.
+    Store cart data in a file (cart_data.json).
+
+    Handle errors like:
+        Invalid price or quantity (non-numeric).
+        Item not found during removal.
+
+    Structure:
+        main.py: For user interaction.
+        cart.py: Handles all cart logic (add/remove/view/save/load).
+
+    Sample Output
+
+    1. Add Item
+    2. Remove Item
+    3. View Cart
+    4. Show Total Bill
+    5. Exit
+    Choose an option: 1
+    Enter item name: Milk
+    Enter item price: 25
+    Enter quantity: 2
+    2 x Milk added to cart.
+
+    1. Add Item
+    2. Remove Item
+    3. View Cart
+    4. Show Total Bill
+    5. Exit
+    Choose an option: 3
+    Milk: ₹25.0 x 2
+
+    1. Add Item
+    2. Remove Item
+    3. View Cart
+    4. Show Total Bill
+    5. Exit
+    Choose an option: 4
+    Subtotal: ₹50.00
+    GST (18%): ₹9.00
+    Total Payable: ₹59.00

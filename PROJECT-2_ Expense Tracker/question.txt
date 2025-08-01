@@ -1,0 +1,72 @@
+Project Title: Expense Tracker
+    Objective:
+    Create a command-line-based application that allows users to record daily expenses, view all expenses, and calculate the total spent. The app should use file handling to store data, and error handling for invalid inputs.
+
+    Functional Requirements:
+        Add Expense
+            User enters a description and an amount.
+            Save the data to a file expenses.txt in the format: description,amount.
+            Validate that the amount is a positive number.
+        View Expenses
+            Read the expenses.txt file and display all saved records.
+            View Total Spent
+            Read all entries and calculate the sum of all expense amounts.
+        Exit
+            Gracefully exit the application.
+
+    Sample Run Output:
+
+    ===== EXPENSE TRACKER =====
+    1. Add Expense
+    2. View Expenses
+    3. View Total Spent
+    4. Exit
+    Choose option (1/2/3/4): 1
+    Enter expense description: Lunch
+    Enter amount (₹): 150
+     Expense added.
+
+
+     ===== EXPENSE TRACKER =====
+    1. Add Expense
+    2. View Expenses
+    3. View Total Spent
+    4. Exit
+    Choose option (1/2/3/4): 1
+    Enter expense description: Metro Travel
+    Enter amount (₹): 40
+     Expense added.
+
+
+     ===== EXPENSE TRACKER =====
+    1. Add Expense
+    2. View Expenses
+    3. View Total Spent
+    4. Exit
+    Choose option (1/2/3/4): 2
+
+     Expenses:
+    - Lunch: ₹150.0
+    - Metro Travel: ₹40.0
+
+
+    ===== EXPENSE TRACKER =====
+    1. Add Expense
+    2. View Expenses
+    3. View Total Spent
+    4. Exit
+    Choose option (1/2/3/4): 3
+     Total Spent: ₹190.0
+
+
+    ===== EXPENSE TRACKER =====
+    1. Add Expense
+    2. View Expenses
+    3. View Total Spent
+    4. Exit
+    Choose option (1/2/3/4): 4
+    Goodbye!
+
+
+
+

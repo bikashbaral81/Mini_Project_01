@@ -1,0 +1,10 @@
+{
+    "app": {
+        "price": 20.0,
+        "quantity": 33
+    },
+    "oo": {
+        "price": 34.0,
+        "quantity": 2
+    }
+}

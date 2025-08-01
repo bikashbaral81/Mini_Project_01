@@ -1,0 +1,56 @@
+This project is extended version of the student grading system in which teacher can do the following operations upto which they want.
+
+In the previous question you were adding 1 student details and displaying the report in this ad features like the teacher can as many students as they want can display all the stidents at a time also update students marks.
+
+--- Student Report Card System ---
+1. Add Student
+2. Display All Students
+3. Update Student Marks
+4. Exit
+Enter your choice: 3
+Enter student name to update: kishan
+Enter updated marks:
+maths (old: 99): 77
+english (old: 99): 89
+Marks updated successfully.
+
+--- Student Report Card System ---
+1. Add Student
+2. Display All Students
+3. Update Student Marks
+4. Exit
+Enter your choice: 3
+Enter student name to update: 
+Student not found.
+
+--- Student Report Card System ---
+1. Add Student
+2. Display All Students
+3. Update Student Marks
+4. Exit
+Enter your choice: 2
+
+Student: kk
+m: 88
+p: 60
+Average: 74.0
+Result: Pass
+
+Student: ppppp
+mg: 34
+gh: 64
+tgn: 77
+Average: 58.33
+Result: Pass
+
+Student: kishan
+maths: 77
+english: 89
+Average: 83.0
+Result: Pass
+
+--- Student Report Card System ---
+1. Add Student
+2. Display All Students
+3. Update Student Marks
+4. Exit
